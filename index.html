@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>タイトル</title>
+ <title>web2　課題</title>
  <mata charset="utf-8">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script type="text/javascript">
+  $(function(){
+   $("#toggle").on("mouseover",function(){
+    $("#hide").fadetoggle("slow");
+   });
+  });
+  </script>
  </head>
 <body>
- 本文
+ <div id="hide">隠れるよ</div>
+ <butoon id="toggle">隠すよ</button>
  </body>
 </html>
