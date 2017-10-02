@@ -6,6 +6,10 @@
  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
  <script type="text/javascript">
   $(function(){
+   $("#color").css("color","red");
+  });
+  
+  $(function(){
    $("#toggle").on("mouseover",function(){
     $("#hide").fadeToggle("slow");
    });
@@ -20,7 +24,7 @@
   </script>
  </head>
 <body>
-<p>jQueryの試し部屋</p>
+<p><div id="color">jQueryの試し部屋</div></p>
  <p><div id="hide">カーソルを乗せると出たり消えたり</div></p>
  <p><div id="toggle"><mark>乗せてみて</mark></div></p>
  
